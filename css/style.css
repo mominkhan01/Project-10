@@ -1,0 +1,175 @@
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+
+/*header start*/
+header{
+	background-color: #FCDB00;
+	padding: 20px 0;
+}
+.menu ul li a{
+	font-weight: 700;
+	font-size: 22px;
+	font-color: #010101;
+	padding: 0 30px !important;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+/*header end*/
+
+/*banner start*/
+
+.banner{
+	background-color: #FCDB00;
+	padding-bottom: 90px;
+}
+.carousel-indicators {
+    bottom: -73px;
+}
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.content{
+
+}
+.content h1 {
+    margin-top: 50px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.content h3{
+	font-weight: 400;
+    font-size: 22px;
+    margin-top: 22px;
+    color: #333333;
+}
+.content p{
+	font-weight: 400;
+    font-size: 16px;
+    margin-top: 22px;
+    color: #666666;
+}
+.content ul li i{
+	margin-top: 30px;
+    font-size: 40px;
+    margin-right: 30px;
+}
+.tab{}
+.tab img{}
+
+/*banner end*/
+
+/*features start*/
+
+
+.features{
+	margin-top: 80px;
+	margin-bottom: 80px
+}
+.tinyone{}
+.tinyone h1{
+	font-weight: 700;
+	font-size: 32px;
+	color: #010101;
+}
+.tinyone p{
+	font-weight: 400;
+	font-size: 18px;
+	color: #474C53;
+}
+.icon{
+	font-size: 45px;
+	margin-top: 40px;
+}
+.resonsive{
+	margin-top: 46px;
+}
+.resonsive h2{
+	font-weight: 700;
+	font-size: 30px;
+	color: #010101;
+}
+.resonsive p{
+	font-weight: 400;
+	font-size: 16px;
+	color: #474C53;
+
+}
+.p_l_0{
+	padding-left: 0;
+}
+.m_t_30{
+	margin-top: 30px;
+}
+
+
+/*features end*/
+
+/*contact start*/
+
+.contact{
+	background-color: #010101;
+	padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+.m{
+	font-weight: 700;
+	font-size: 32px;
+	color: #FCDB00;
+}
+.m1{
+	font-weight: 400;
+	font-size: 18px;
+	color: #898989;
+}
+.form-contact{
+    margin-top: 20px;
+}
+.form-contact input{
+       padding: 26px 15px;
+    font-size: 16px;
+}
+.form-contact button{
+	font-weight: 700;
+    font-size: 16px;
+    border: none;
+    text-transform: uppercase;
+    padding: 15px 53px;
+    background-color: #FCDB00;
+}
+}
+.social-link{
+	margin-top: 24px;
+}
+.social-link ul{
+	text-align: center;
+}
+.social-link ul li{
+	display: inline-block;
+	margin: 5px;
+}
+.social-link ul li a{
+	color: #010101;
+}
+.social-link ul li a:link i::before {
+	height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 10px;
+    font-size: 30px;
+    transition: .5s;
+    background-color: #FCDB00;
+    margin-top: 50px;
+}
+.social-link ul li a:hover i::before {
+	background: #fff;
+	transform: rotate(360deg);
+}
+
+/*contact end*/
+

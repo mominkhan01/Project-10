@@ -1,0 +1,183 @@
+/*Extra small devices (portraut phone, less then 576px*/
+@media (max-width: 575.98px) {
+    .menu ul li a {
+    font-size: 18px;
+    padding: 0 0px !important;
+    text-align: right;
+ }
+ .content {
+    text-align: center;
+ }
+ .content h1 {
+    margin-top: 14px;
+    font-size: 29px;
+    font-weight: 700;
+ }
+  .content ul li i{
+	margin-top: 20px;
+    font-size: 30px;
+    margin-right: 20px;
+ }
+ .features {
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+ .tinyone h1 {
+    font-size: 25px;
+ }
+ .tinyone p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #474C53;
+ }
+ .icon {
+    margin-top: 15px;
+    text-align: center;
+ }
+ .resonsive {
+    margin-top: 25px;
+    text-align: center;
+ }
+ .resonsive h2 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #010101;
+ }
+ .m {
+    font-size: 25px;
+ }
+ .m1 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #898989;
+ }
+ .contact {
+    background-color: #010101;
+    padding-top: 60px;
+    padding-bottom: 70px;
+ }
+ .form-contact button {
+    padding: 10px 118px;
+    margin-top: 20px;
+ }
+ .form-contact input {
+    padding: 21px 50px;
+    font-size: 16px;
+ }
+ .social-link ul {
+    text-align: center;
+    font-size: 12px;
+ }
+}
+
+/*small devices (landscape phone, less then 576px and up*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.menu ul li a {
+    font-size: 20px;
+    padding: 0 0px !important;
+    text-align: right;
+ }
+ .content {
+    text-align: center;
+}
+ .content h1 {
+    margin-top: 15px;
+    font-size: 32px;
+    font-weight: 700;
+ }
+ .content ul li i{
+	margin-top: 20px;
+    font-size: 30px;
+    margin-right: 20px;
+ }
+ .m_t_30 {
+    margin-top: 10px;
+ }
+ .resonsive {
+    margin-top: 25px;
+    text-align: center;
+ }
+ .icon {
+    font-size: 40px;
+    margin-top: 25px;
+    text-align: center;
+ }
+ .features {
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+ .resonsive h2 {
+    font-size: 25px;
+ }
+ .m {
+    font-size: 25px;
+ }
+ .m1 {
+    font-size: 16px;
+ }
+ .contact {
+    background-color: #010101;
+    padding-top: 60px;
+    padding-bottom: 70px;
+ }
+ .form-contact button {
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    text-transform: uppercase;
+    padding: 10px 93px;
+    background-color: #FCDB00;
+ }
+ .form-contact input {
+    padding: 21px 15px;
+    font-size: 16px;
+ }
+}
+
+/*Medium devices (tablets, 768px and up*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.menu ul li a {
+    font-size: 20px;
+    padding: 0px 0 !important;
+    text-align: right;
+ }
+ .content h1 {
+    margin-top: 10px;
+    font-size: 27px;
+    font-weight: 700;
+ }
+ .content h3 {
+    font-size: 17px;
+    margin-top: 10px;
+ }
+ .content p {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #666666;
+ }
+ .content ul li i {
+    margin-top: 20px;
+    font-size: 30px;
+ }
+ .form-contact button {
+    padding: 15px 33px;
+
+ }
+ .social-link ul {
+  text-align: center;
+ }
+}
+
+/*Large devices (desktops, 992px and up*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.form-contact button {
+    padding: 15px 37px;
+ }
+ .social-link ul {
+    text-align: center;
+ }
+}
+
+/*Extra large devices (large desktops, 1200px and up*/
+@media (max-width: 1200px) {}
